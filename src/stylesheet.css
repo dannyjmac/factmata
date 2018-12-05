@@ -1,0 +1,34 @@
+body {
+  font-family: Roboto;
+  padding: 0px 16px; }
+
+.app {
+  width: 800px;
+  margin: 0 auto; }
+  @media screen and (max-width: 832px) {
+    .app {
+      width: 100%; } }
+
+.list-item {
+  border-bottom: 1px solid #eee; }
+  .list-item .username {
+    color: #999;
+    margin: 20px 0px; }
+
+.header-container {
+  display: grid;
+  grid-template-columns: 8fr 1fr; }
+  @media screen and (max-width: 832px) {
+    .header-container {
+      grid-template-columns: 1fr; } }
+  .header-container h2 {
+    cursor: pointer;
+    margin: 0; }
+  .header-container .icon {
+    width: 20px;
+    margin: 10px 15px 0px 0px; }
+
+.user-address {
+  height: 100%; }
+  .user-address p {
+    line-height: 5px; }
