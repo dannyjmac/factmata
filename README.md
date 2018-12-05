@@ -2,4 +2,4 @@
 
 1. Clone Repository.
 2. Run npm install command to save all dependencies.
-3. Run npm start comman to start app on local server.
+3. Run npm start command to start app on local server.
